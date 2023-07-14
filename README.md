@@ -5,7 +5,8 @@
 ### Intorduction
 
 This is a project for municipalities, animal care institutions and NGOs to protect the environment and animals
-In this project, using computer vision and machine learning, the device can feed the animal by recognizing which animal is in front of the device and whether there is food or not.
+In this project, using computer vision and machine learning, the device can feed the animal by recognizing 
+which animal is in front of the device and whether there is food or not.
 In this project, a step motor is designed to pour food at the bottom of the device using the OpenMV camera and its boards.
 Details are below
 
@@ -21,8 +22,17 @@ The device is a large tank of food for animals, under which there is a place for
 ![](docs/foodanimal2.png)
 
 The food delivery and camera section includes a place to measure the meal and a camera to recognize the animal's face
-![](docs/foodanimal4.jpg)
+![](docs/foodanimal5.jpg)
 
+We can see all the device and equipment in the picture and its location is explained
+With the use of a wide camera, both the animal and the spilled food are detected, so that if it is finished and 
+the animal is still there, the food can be poured again.
+![](docs/foodanimal31.png)
 
+## How use the application to create HaarTraining file
+
+the original file for OpenMV camera is in the source API 
+but if we work with it and need to update Haarcascade file 
+we can use this application to test and make update file  
 
 
